@@ -4,7 +4,8 @@ import React from 'react'
 import { mutate, trigger } from 'swr'
 
 import { AUTH_LOCAL_STORAGE_NAME } from 'front'
-import SettingsForm from 'front/settingsForm'
+import SettingsForm from '../front/SettingsForm';
+
 import checkLogin from 'front/checkLogin'
 import storage from 'front/localStorageHelper'
 import { deleteCookie } from 'front'
